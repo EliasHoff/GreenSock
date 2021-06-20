@@ -8,7 +8,16 @@
 
         <style>
             .filler{
-                background-color: antiquewhite;
+                background-color: red;
+                width: min-content;
+            }
+            .content{
+                margin-bottom: 100vh;
+            }
+            .footer{
+                background-color: blue;
+                color: white;
+                padding: 20px;
             }
         </style>
     </head>
@@ -19,9 +28,19 @@
         <div class="content">
             <h2 class="title">title text</h2>
             <p class="filler">filler content</p>
+            <button id="reverseBtn">Reverse!</button>
+        </div>
+        <div class="footer">
+            <p>bitte nicht übersehen</p>
         </div>
         
+        <div class="content">
+            <h2 class="title">title text</h2>
+            <p class="filler">filler content</p>
+            <button id="reverseBtn">Reverse!</button>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" defer></script>
         <script src="./js/main.js" defer></script>
     </body>
 </html>
