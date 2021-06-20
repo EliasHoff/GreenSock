@@ -11,10 +11,13 @@ timeline
 gsap.from('.footer',{
     scrollTrigger: {
         trigger: '.footer',
-        toggleActions: 'restart reset restart reset'
+        toggleActions: 'restart reset restart reset',
+        start: 'center 95%',
+        end: 'center 5%',
+        markers: true
     },
     duration: 1.5,
-    y: '-100%',
+    y: '100%',
     opacity: -1
 });
 
