@@ -7,29 +7,42 @@
         <title>GSAP</title>
 
         <style>
-            .filler{
+            .filler {
                 background-color: red;
                 width: min-content;
             }
-            .content{
+            .content {
                 margin-bottom: 100vh;
+                border: 2px black solid;
             }
-            .footer{
+            .footer {
                 background-color: blue;
                 color: white;
                 padding: 20px;
-                margin: 10px;
+                margin: 20px;
             }
         </style>
     </head>
     <body>
         <div class="header">
-            <h1>header text</h1>
+            <h1 id="header" class="oldHead">header text</h1>
         </div>
         <div class="content">
             <h2 class="title">title text</h2>
             <p class="filler">filler content</p>
             <button id="reverseBtn">Reverse!</button>
+        </div>
+        <div class="footer">
+            <p>bitte nicht übersehen</p>
+        </div>
+        <div class="footer">
+            <p>bitte nicht übersehen</p>
+        </div>
+        <div class="footer">
+            <p>bitte nicht übersehen</p>
+        </div>
+        <div class="footer">
+            <p>bitte nicht übersehen</p>
         </div>
         <div class="footer">
             <p>bitte nicht übersehen</p>
@@ -42,6 +55,7 @@
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js" defer></script>
         <script src="./js/main.js" defer></script>
     </body>
 </html>
