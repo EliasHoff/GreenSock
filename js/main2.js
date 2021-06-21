@@ -18,11 +18,11 @@ document.querySelectorAll('.footer').forEach(element => {
         scrollTrigger: {
             trigger: element,
             toggleActions: 'restart complete none reset',
-            start: '25% 95%',
+            start: '-15% 95%',
             end: 'top top'
         },
         duration: .75,
-        y: '75%',
+        y: '50%',
         opacity: 0
     });
 });
